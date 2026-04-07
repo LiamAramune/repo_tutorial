@@ -1,7 +1,6 @@
-print("Hola Mundo")
+print("Hola Mundo desde main")
 
-nombre = input("Bienvenido/a, ingrese su nombre: ")
+numero = int(input("Ingrese un numero: "))
+numero2 = int(input("Ingrese otro numero: "))
 
-print(f"Hola {nombre}")
-
-print("Hola, estoy agregando algo en otra rama pa probar xd")
+print(f"Resultado de suma es: {numero + numero2}")
